@@ -251,7 +251,7 @@ resource "null_resource" "install_application" {
       "sudo apt-get update",
       "sudo apt-get install -y git python3 python3-pip libpq-dev",
 
-      "git clone https://github.com/idosxd/app-for-terraform.git",
+      "git clone https://github.com/idosxd/app-for-terraform-project.git",
       "cd application",
 
       "pip3 install --user -r requirements.txt",
